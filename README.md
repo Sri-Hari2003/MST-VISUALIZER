@@ -54,11 +54,4 @@ The script will display the graph and its Minimum Spanning Tree using graphical 
 
 Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- This project uses the NetworkX and Matplotlib libraries.
-```
