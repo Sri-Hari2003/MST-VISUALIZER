@@ -1,12 +1,64 @@
-# MST-VISUALIZER
+# MST Visualizer
 
-It imports the necessary libraries: networkx, matplotlib.pyplot, and random. It also imports the minimum_spanning_tree function from networkx.algorithms.tree module.
-It defines a function called generate_random_graph that generates an undirected random graph with a given number of nodes.
-It prompts the user for a choice between inputting a graph (choice '1') or generating a random graph (choice '2').
-If the user chooses to input a graph (choice '1'), it prompts for the number of nodes and weight between each pair of nodes, and constructs the graph accordingly.
-If the user chooses to generate a random graph (choice '2'), it prompts for the number of nodes for the random graph and calls the generate_random_graph function to create the graph.
-It uses the spring_layout function from NetworkX to generate positions for the nodes of the graph.
-It visualizes the generated graph using nx.draw and nx.draw_networkx_edge_labels functions from NetworkX, and displays it using plt.show() from Matplotlib.
-It finds the minimum spanning tree (MST) of the generated graph using the minimum_spanning_tree function.
-It visualizes the MST using the same process as step 7.
-It displays the graph and MST in ASCII table format by iterating over the edges of the graph and MST and printing the corresponding nodes and weights.
+MST Visualizer is a Python script that allows users to input a graph or generate a random graph, visualize the graph using NetworkX and Matplotlib, find its Minimum Spanning Tree (MST), and display both the graph and MST in ASCII table format.
+
+## Features
+
+- Input a custom graph or generate a random one.
+- Visualize the graph and its Minimum Spanning Tree.
+- Display graph and MST details in an ASCII table.
+
+## Prerequisites
+
+Before running this script, make sure you have the following dependencies installed:
+
+- Python 3.x
+- NetworkX
+- Matplotlib
+
+You can install these dependencies using `pip`:
+
+```bash
+pip install networkx matplotlib
+```
+
+## Getting Started
+
+1. Clone this repository to your local machine:
+
+```bash
+git clone [<repository-url>]
+cd MST-Visualizer
+```
+
+2. Run the script:
+
+```bash
+python mst_visualizer.py
+```
+
+Follow the on-screen prompts to input a custom graph or generate a random one. The script will then visualize the graph and its Minimum Spanning Tree.
+
+## Usage
+
+- Choose whether to input a custom graph (choice '1') or generate a random graph (choice '2').
+- If you choose to input a custom graph:
+  - Enter the number of nodes.
+  - Enter the weights between each pair of nodes.
+- If you choose to generate a random graph:
+  - Enter the number of nodes for the random graph.
+
+The script will display the graph and its Minimum Spanning Tree using graphical visualization and also provide an ASCII table with node connections and weights.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- This project uses the NetworkX and Matplotlib libraries.
+```
